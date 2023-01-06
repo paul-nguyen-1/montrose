@@ -1,0 +1,15 @@
+.orderButton {
+  height: 35px;
+  width: 125px;
+  border-radius: 25px;
+  font-weight: 900;
+  font-size: 16px;
+  color: black;
+  background-color: bisque;
+  border: 1px solid bisque;
+}
+
+.orderButton:hover {
+  opacity: 0.33;
+  cursor: pointer;
+}
