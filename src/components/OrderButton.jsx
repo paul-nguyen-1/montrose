@@ -1,10 +1,10 @@
 import React from "react";
 import "./OrderButton.css";
 
-function OrderButton({ text }) {
+function OrderButton({ home }) {
   return (
     <div>
-      <button className="orderButton">{text}</button>
+      <button className="orderButton">{home}</button>
     </div>
   );
 }

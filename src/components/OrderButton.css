@@ -1,4 +1,7 @@
 .orderButton {
+  display:flex;
+  align-items: center;
+  justify-content: center;
   height: 35px;
   width: 125px;
   border-radius: 25px;
