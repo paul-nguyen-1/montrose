@@ -1,14 +1,45 @@
-.firstScreen{
+@import-normalize;
+
+.firstScreen {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("/Users/swaggy/Desktop/montrose/src/assets/coffee-bar.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
+  color:white;
 }
 
-.secondScreen{
+.secondScreen {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 140vh;
 }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+ audio,
+ video {
+   display: inline-block;
+ }
+ 
+ /**
+  * Remove the border on images inside links in IE 10-.
+  */
+ 
+ img {
+   border-style: none;
+ }

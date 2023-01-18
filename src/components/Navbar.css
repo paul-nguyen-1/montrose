@@ -8,12 +8,14 @@
 
 h1:nth-child(2) {
   position: absolute;
-  top: -30px;
+  top: -35px;
   left: 4px;
 }
 
 .Logo {
-  padding-left: 25px;
+  position: absolute;
+  top: -35px;
+  padding-left: 80px;
   color: transparent;
   -webkit-text-stroke: 1px black;
   font-size: 60px;
@@ -28,12 +30,14 @@ h1:nth-child(2) {
   flex-direction: row;
   justify-content: space-evenly;
   width: 20vw;
-  padding-right: 40px;
+  padding-right: 80px;
+  margin-bottom: 185px;
 }
 
 .navButton {
-  color: black;
+  color: white;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .navButton:hover {

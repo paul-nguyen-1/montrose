@@ -1,0 +1,5 @@
+.captionContainer{
+    display: flex;
+    flex-direction: column;
+   
+}
