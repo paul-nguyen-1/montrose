@@ -8,7 +8,6 @@ import OrderButton from "../OrderButton";
 function Home() {
   return (
     <div>
-      {" "}
       <div className="firstScreen">
         <Navbar />
         <Motto />
@@ -16,11 +15,14 @@ function Home() {
       </div>
       <div className="secondScreen">
         <div className="topSecondScreen">
-          <Hours dayOne="MON" dayTwo="SUN" time="7A-3P" />
+          <Hours dayOne="SUN" dayTwo="MON" time="7A-3P" />
         </div>
         <div className="bottomSecondScreen">
           <Caption caption="CO-WORKING" secondCaption="SPACE" />
         </div>
+      </div>
+      <div className="thirdScreen">
+
       </div>
     </div>
   );

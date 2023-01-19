@@ -1,0 +1,22 @@
+.hours {
+  display: flex;
+  margin-left: 150px;
+  color: white;
+}
+
+.dayOne {
+  font-size: 70px;
+  transform: translate(440px, -25px);
+}
+
+.dayTwo {
+  font-size: 70px;
+  transform: translate(50px, 25px);
+}
+
+.time {
+    font-size: 45px;
+    margin-top: 50px;
+    transform: rotate(-90deg) translate(25px, 110px);
+    color: black;
+}

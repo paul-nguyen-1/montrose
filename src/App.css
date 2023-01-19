@@ -6,12 +6,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/Users/swaggy/Desktop/montrose/src/assets/coffee-bar.jpeg");
+  background-image: url("/Users/swaggy/Desktop/montrose/src/assets/header.jpeg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.8;
   image-rendering: auto;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
@@ -24,8 +25,46 @@
 .secondScreen {
   display: flex;
   flex-direction: column;
-  height: 140vh;
+  height: 170vh;
+  
 }
+
+.topSecondScreen{
+  height:70vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("/Users/swaggy/Desktop/montrose/src/assets/dallas.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  opacity: 0.9;
+}
+
+.bottomSecondScreen{
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url("/Users/swaggy/Desktop/montrose/src/assets/coffee.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  opacity: 0.8;
+}
+
+
+
 
 /**
  * Add the correct display in IE 9-.

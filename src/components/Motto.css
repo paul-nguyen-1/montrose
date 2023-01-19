@@ -2,17 +2,19 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
-  height: 40vh;
-  color: rgb(231, 202, 170)
+  height: 50vh;
+  color: rgb(217, 214, 214);
 }
 
 .mottoText{
-  height: 2vh;
+  height: 4vh;
+  font-size: 40px;
 }
 
 .subText{
-  line-height: 350px;
+  margin-top: 10px;
+  line-height: 400px;
+  font-size: 20px;
   font-weight: bold;
 }
 

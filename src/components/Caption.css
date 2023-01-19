@@ -1,5 +1,17 @@
-.captionContainer{
-    display: flex;
-    flex-direction: column;
-   
+.captionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.captionOne {
+    transform: translate(30px, 100px);
+    font-size: 60px;
+}
+
+.captionTwo {
+    transform: translate(30px, -50px);
+    font-size: 120px;
 }

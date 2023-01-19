@@ -7,7 +7,7 @@ function Motto() {
       <div className="mottoText"><h1>coffee</h1></div>
       <div className="mottoText"><h1>&#43;</h1></div>
       <div className="mottoText"><h1>community</h1></div>
-      <div className="subText">love you.</div>
+      <div className="subText">love you :) </div>
     </div>
     
   );

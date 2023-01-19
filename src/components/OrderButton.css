@@ -7,12 +7,13 @@
   border-radius: 25px;
   font-weight: 900;
   font-size: 16px;
-  color: White;
-  background-color: bisque;
-  border: 1px solid bisque;
+  color: rgb(0, 0, 0);
+  background-color: rgb(195, 171, 141);
+  border: 1px solid rgb(195, 171, 141);
 }
 
 .orderButton:hover {
   opacity: 0.33;
   cursor: pointer;
 }
+
