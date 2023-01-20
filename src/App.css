@@ -1,5 +1,9 @@
 @import-normalize;
 
+.homeContainer {
+  max-width: 100vw;
+}
+
 .firstScreen {
   display: flex;
   height: 100vh;
@@ -19,18 +23,17 @@
 
   /* Safari seems to support, but seems deprecated and does the same thing as the others. */
   image-rendering: -webkit-optimize-contrast;
-  color:white;
+  color: white;
 }
 
 .secondScreen {
   display: flex;
   flex-direction: column;
   height: 170vh;
-  
 }
 
-.topSecondScreen{
-  height:70vh;
+.topSecondScreen {
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -46,8 +49,8 @@
   opacity: 0.9;
 }
 
-.bottomSecondScreen{
-  height:100vh;
+.bottomSecondScreen {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -63,22 +66,57 @@
   opacity: 0.8;
 }
 
+.thirdScreen {
+  height: 100vh;
+}
 
+.topThirdScreen {
+  height: 60vh;
+  background-color: hsla(var(--lightAccent-hsl), 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 4.5rem;
+}
 
+#on {
+  transform: translate(-475px, 155px);
+}
+
+#line {
+  transform: translate(475px, -155px);
+}
+
+/* Change backgroundsize to cover on responsive design */
+.bottomThirdScreen {
+  display: flex;
+  height: 40vh;
+  width: 100vw;
+  background-image: url("/Users/swaggy/Desktop/montrose/src/assets/coffeeBeans.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  background-repeat: repeat;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
 
 /**
  * Add the correct display in IE 9-.
  */
 
- audio,
- video {
-   display: inline-block;
- }
- 
- /**
+audio,
+video {
+  display: inline-block;
+}
+
+/**
   * Remove the border on images inside links in IE 10-.
   */
- 
- img {
-   border-style: none;
- }
+
+img {
+  border-style: none;
+}

@@ -9,9 +9,8 @@ function Navbar() {
         <h1 className="Logo">Montrose</h1>
       </div>
       <div className="rightNav">
-        <a className="navButton">thecrew.</a>
-        <a className="navButton">menu.</a>
-        <a className="navButton">recipes.</a>
+        <a className="navButton" href="/crew">thecrew.</a>
+        <a className="navButton" href="/menu">menu.</a>
         <a href="https://github.com/paul-nguyen96" className="navButton">contact.</a>
       </div>
     </div>

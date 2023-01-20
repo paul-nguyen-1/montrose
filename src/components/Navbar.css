@@ -13,6 +13,7 @@ h1:nth-child(2) {
 }
 
 .Logo {
+  cursor: pointer;
   position: absolute;
   top: -35px;
   padding-left: 80px;
@@ -22,7 +23,7 @@ h1:nth-child(2) {
 }
 
 .Logo:hover {
-  cursor: pointer;
+  display:none;
 }
 
 .rightNav {
