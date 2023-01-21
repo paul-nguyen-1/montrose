@@ -1,53 +1,63 @@
 .container {
   display: flex;
-  align-items: center;
+  position: absolute;
+  flex-direction: row;
+  align-items: flex-end;
   justify-content: space-between;
+  transform: translateY(-20px);
   width: 100vw;
-  height: 10vh;
 }
 
-h1:nth-child(2) {
+.leftNav {
+  display: flex;
+  width: 50vw;
+  transform: translateX(80px);
+}
+
+.Logo:nth-child(2) {
   position: absolute;
-  top: -35px;
   left: 5px;
 }
 
 .Logo {
   cursor: pointer;
   position: absolute;
-  top: -35px;
-  padding-left: 80px;
   color: transparent;
   -webkit-text-stroke: 1.5px black;
   font-size: 70px;
 }
 
 .Logo:hover {
-  display:none;
+  display: none;
+  cursor: pointer;
 }
 
 .rightNav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 20vw;
-  padding-right: 65px;
-  margin-bottom: 200px;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
 }
 
 .navButton {
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 20px;
-  padding: 0px 15px;
   font-weight: bold;
+  transform: translate(170px, 55px);
+  width: 7.5vw;
 }
 
 .navButton:hover {
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
-a{
+.contact {
+}
+
+a {
   display: flex;
   text-decoration: none;
 }

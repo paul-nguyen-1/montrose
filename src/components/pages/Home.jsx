@@ -1,16 +1,13 @@
 import React from "react";
 import Caption from "../Caption";
-import Footer from "../Footer";
 import Hours from "../Hours";
 import Motto from "../Motto";
-import Navbar from "../Navbar";
 import OrderButton from "../OrderButton";
 
 function Home() {
   return (
     <div className="homeContainer">
-      <div className="firstScreen">
-        <Navbar />
+    <div className="firstScreen">
         <Motto />
         <OrderButton home="order online" />
       </div>
@@ -32,8 +29,7 @@ function Home() {
             <h1>LINE</h1>
           </div>
         </div>
-      <div className="bottomThirdScreen">
-      </div>
+        <div className="bottomThirdScreen"></div>
       </div>
     </div>
   );
